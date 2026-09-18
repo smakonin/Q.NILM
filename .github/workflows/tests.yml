@@ -1,0 +1,22 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -c requirements-verified.txt -e '.[dwave,ibm,stage-b,stage-e]'
+      - run: python scripts/check_distribution_boundary.py
+      - run: python -m unittest discover -s tests -v
+      - run: PYTHONPATH=src python scripts/run_synthetic_benchmark.py --output-dir /tmp/qnilm-synthetic --seeds 1 --shots 256
+      - run: python scripts/run_ibm_pilot.py --mode ideal --output-dir /tmp/qnilm-ibm --shots 256
+      - run: PYTHONPATH=src python scripts/run_ocean_scaling_benchmark.py --output-dir /tmp/qnilm-ocean --scenarios 3x4 --seeds 1 --samplers simulated tabu --num-reads 8 --num-sweeps 20 --tabu-timeout-ms 20 --zephyr-m 2 --embedding-timeout-s 2 --no-save-raw

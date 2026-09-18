@@ -1,0 +1,4 @@
+segment,aggregate_w,dryr_mean_w,frdg_mean_w,vacu_mean_w,dryr_reference_on,frdg_reference_on,vacu_reference_on,dryr_exact_on,frdg_exact_on,vacu_exact_on,dryr_qaoa_on,frdg_qaoa_on,vacu_qaoa_on
+0,233.43869925671814,551.1625,24.441666666666666,0.004166666666666667,0,0,0,0,1,0,0,1,0
+1,4911.768381932534,5351.906666666667,104.13333333333335,0.05333333333333333,1,1,0,1,1,0,1,1,0
+2,442.20007890222985,667.0433333333333,104.45333333333333,0.55,0,1,0,0,1,0,0,1,0

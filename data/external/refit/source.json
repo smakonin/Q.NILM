@@ -1,0 +1,24 @@
+{
+  "dataset": "REFIT Electrical Load Measurements (Cleaned)",
+  "publisher": "University of Strathclyde",
+  "dataset_doi": "10.15129/9ab14b0e-19ac-4279-938f-27f643078cec",
+  "data_paper_doi": "10.1038/sdata.2016.122",
+  "license": "Creative Commons Attribution 4.0 International",
+  "version_file": "CLEAN_REFIT_081116.7z",
+  "landing_page": "https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-measurements-cleaned/",
+  "archive_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090184/CLEAN_REFIT_081116.7z",
+  "readme_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090183/CLEAN_READ_ME_081116.txt",
+  "archive_sha256": "4dc4dde763da1c843e9d565fc68f1a63752d858980615635994d7f701fdfcc4b",
+  "readme_sha256": "c5f5236fd5a7b29771913480fcef6e9be8a85d07511939c5a35160b7afc97bfb",
+  "download_date": "2026-09-14",
+  "download_authorized_by_user": true,
+  "house_ids": [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21],
+  "source_caveats": [
+    "Publisher cleaned duplicate timestamps and appliance-column assignments.",
+    "Missing IAM values were filled, and spikes above 4000 W were replaced with zero; imputation is not separately identified for every value.",
+    "Issues=1 flags summed submeter readings above the aggregate; it is not a complete missingness flag.",
+    "Sensor readings were polled asynchronously at approximately 6-8 seconds; not exact synchronized 8-second measurements.",
+    "Household labels and some appliances changed during monitoring; use the official per-home documentation."
+  ],
+  "scope": "Dataset obtained; acquisition alone does not complete external validation."
+}

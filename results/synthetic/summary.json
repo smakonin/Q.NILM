@@ -1,0 +1,28 @@
+{
+  "algorithm": "Q.NILM",
+  "status": "small-instance simulator benchmark; not a quantum-advantage claim",
+  "qaoa_depth": 1,
+  "shots_per_instance": 2000,
+  "total_instances": 12,
+  "overall_sample_success_rate": 1.0,
+  "by_qubits": {
+    "6": {
+      "instances": 4,
+      "sample_success_rate": 1.0,
+      "mean_optimal_probability": 0.08565450429793224,
+      "mean_truth_exact_bit_accuracy": 1.0
+    },
+    "9": {
+      "instances": 4,
+      "sample_success_rate": 1.0,
+      "mean_optimal_probability": 0.020213905479341956,
+      "mean_truth_exact_bit_accuracy": 1.0
+    },
+    "12": {
+      "instances": 4,
+      "sample_success_rate": 1.0,
+      "mean_optimal_probability": 0.0019799200039766537,
+      "mean_truth_exact_bit_accuracy": 1.0
+    }
+  }
+}

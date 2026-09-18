@@ -1,0 +1,123 @@
+{
+  "algorithm": "Q.NILM",
+  "status": "circuit-validation pilot; not a quantum-advantage claim",
+  "input": "data/derived/r1hz_2018-01-28_1200.csv",
+  "input_sha256": "6c156144dd7e6533b4f90b4c6d6183d9320704570f82e6330aefe84fce9ba241",
+  "source_dataset_doi": "10.7910/DVN/RCB5VJ",
+  "timezone": "America/Vancouver",
+  "channels": [
+    "dryr",
+    "frdg",
+    "vacu"
+  ],
+  "block_seconds": 30,
+  "input_blocks": 120,
+  "detected_event_segments": 16,
+  "event_threshold_w": 46.43484289044291,
+  "event_threshold_ratio": 0.01,
+  "selected_start_unix": 1517171520,
+  "selected_start_local": "2018-01-28T12:32:00-08:00",
+  "segments": 3,
+  "selected_segment_durations_blocks": [
+    8,
+    5,
+    10
+  ],
+  "qubits": 9,
+  "nominal_incremental_power_w": {
+    "dryr": 4643.484289044291,
+    "frdg": 97.73572702525112,
+    "vacu": 1225.3517241379311
+  },
+  "baseline_power_w": {
+    "dryr": 539.8187878787878,
+    "frdg": 4.452830188679245,
+    "vacu": 4.173275862068966
+  },
+  "state_threshold_w": {
+    "dryr": 2861.560932400933,
+    "frdg": 53.320693701304805,
+    "vacu": 616.8491379310345
+  },
+  "switch_penalty": {
+    "dryr": 431238.9268520232,
+    "frdg": 191.04544674308806,
+    "vacu": 30029.73695695601
+  },
+  "switch_penalty_ratio": 0.02,
+  "aggregate_segment_power_w": [
+    233.43869925671814,
+    4911.768381932534,
+    442.20007890222985
+  ],
+  "reference_states": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "exact_states": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "qaoa_best_sample_states": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "reference_vs_exact_accuracy": 0.8888888888888888,
+  "qaoa_sample_vs_exact_accuracy": 1.0,
+  "exact_cost": 2341790.8497166233,
+  "qaoa_expected_cost": 44228537.116492204,
+  "qaoa_best_sample_cost": 2341790.8497166233,
+  "qaoa_optimal_probability": 0.017346536209314863,
+  "qaoa_best_sample_count": 85,
+  "shots": 5000,
+  "qaoa_depth": 1,
+  "untranspiled_gate_counts": {
+    "h": 9,
+    "rz": 24,
+    "cx": 30,
+    "rx": 9
+  },
+  "gamma": 5.670191618674261,
+  "beta": 2.4322007640695174,
+  "phase_scale": 810040233.7149308,
+  "max_qubo_ising_equivalence_error": 2.384185791015625e-07
+}

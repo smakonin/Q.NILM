@@ -1,0 +1,56 @@
+[
+  {
+    "window_id": "train-000",
+    "chunk": 33,
+    "run": 0,
+    "reset": false,
+    "aggregate": [
+      205.3541666666667,
+      106.41666666666666
+    ],
+    "weights": [
+      32,
+      44
+    ],
+    "block_start": 1465,
+    "block_stop": 1541,
+    "start_unix": 1505329950,
+    "source_window_sha256": "bba19ca31d0189eca43e4649dca380b3328642256c5392ff7ec71d525d9cdb09"
+  },
+  {
+    "window_id": "train-001",
+    "chunk": 44,
+    "run": 0,
+    "reset": false,
+    "aggregate": [
+      1897.6333333333337,
+      330.2128205128205
+    ],
+    "weights": [
+      5,
+      13
+    ],
+    "block_start": 1441,
+    "block_stop": 1459,
+    "start_unix": 1505769180,
+    "source_window_sha256": "a8a3fa320c3a2f4df49e41e0c47d1cec6856a5a1bea18e0ee8c10fa3ede86a48"
+  },
+  {
+    "window_id": "train-002",
+    "chunk": 28,
+    "run": 0,
+    "reset": false,
+    "aggregate": [
+      280.04166666666663,
+      340.6583333333333
+    ],
+    "weights": [
+      4,
+      4
+    ],
+    "block_start": 1437,
+    "block_stop": 1445,
+    "start_unix": 1506209010,
+    "source_window_sha256": "7b8bbeeecac09d472ac420d33eb79d80084e445caa767a524dad2beda457f163"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "shots": 4096,
+  "unique_bitstrings": 358,
+  "best_bitstring": "010011000",
+  "best_bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "best_states": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "best_objective": 1165486.4337717881,
+  "best_sample_count": 75,
+  "mean_objective": 71342241.09709646,
+  "exact_enumeration_limit": 12,
+  "exact_tolerance": 1e-08,
+  "exact_objective": 1165486.4337717881,
+  "exact_objective_gap": 0.0,
+  "exact_optimum_probability": 0.018310546875,
+  "best_is_exact_optimum": true,
+  "exact_representative_bits": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+  ],
+  "best_vs_exact_bit_accuracy": 1.0,
+  "reference_metrics": {
+    "bit_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "mcc": 1.0,
+    "confusion_counts": {
+      "tp": 3,
+      "tn": 6,
+      "fp": 0,
+      "fn": 0
+    },
+    "zero_division_policy": "precision/recall/F1: 0; undefined MCC: null",
+    "weighting": "one vote per appliance-segment bit"
+  },
+  "aggregate_mae_w": 100.35261256610623,
+  "aggregate_mae_weighting": "supplied segment durations",
+  "algorithm": "Q.NILM",
+  "mode": "qpu",
+  "backend": "ibm_fez",
+  "qaoa_depth": 1,
+  "parameter_source": "frozen classical noiseless pilot optimization",
+  "reference_type": "circuit-derived proxy states; diagnostic selected interval",
+  "aggregate_mode": "signed",
+  "aggregate_scope": "selected-channel total minus fitted total baseline; diagnostic, not whole-house mains",
+  "aggregate_mae_grain": "segment-mean target; not mean absolute error over original 30-second blocks",
+  "sampler_wait_wall_time_s": 0.32689883280545473,
+  "job_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.49.0,qiskit-2.5.2*,qiskit_aer-0.17.2*",
+    "timestamps": {
+      "created": "2026-09-14T04:05:35.120856Z",
+      "finished": "2026-09-14T04:05:42.728024Z",
+      "running": "2026-09-14T04:05:36.015293Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 3,
+      "status": "complete"
+    },
+    "circuits_execution_time_ns": 1073021184
+  },
+  "completed_utc": "2026-09-14T04:06:59.718554+00:00",
+  "plan_sha256": "5c3eb82e291a895ed79f104f53780792ccd9379fc428b2382e095a5a8a789fa5",
+  "counts_sha256": "e4c6c6262bb59bfa56a9dc2b985bdd7110d8b918d58dabeab9dc7978a3932248",
+  "queue_and_initialization_s": 0.894437,
+  "server_running_wall_time_s": 6.712731
+}

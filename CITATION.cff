@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Q.NILM, please cite the repository and the associated paper."
+title: "Q.NILM: Quantum Non-Intrusive Load Monitoring"
+type: software
+version: 0.1.0
+date-released: 2026-09-03
+authors:
+  - family-names: Makonin
+    given-names: Stephen
+repository-code: "https://github.com/smakonin/Q.NILM"
+license: Apache-2.0

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qnilm"
+version = "0.1.0"
+description = "Event-compressed quantum optimization for non-intrusive load monitoring"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Stephen Makonin"}]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+stage-e = ["scipy>=1.11,<2"]
+stage-b = ["scipy>=1.11,<2", "qiskit>=2.5,<3", "qiskit-aer>=0.17.2,<1"]
+dwave = ["dwave-ocean-sdk>=9.3,<10"]
+ibm = ["qiskit>=2.5,<3", "qiskit-ibm-runtime>=0.49,<1", "qiskit-aer>=0.17.2,<1"]
+
+[project.urls]
+Repository = "https://github.com/smakonin/Q.NILM"
+
+[tool.setuptools.packages.find]
+where = ["src"]
